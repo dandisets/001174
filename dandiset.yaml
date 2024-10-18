@@ -6,31 +6,9 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  approach:
-  - name: microscopy approach; cell population imaging
-    schemaKey: ApproachType
-  dataStandard:
-  - identifier: RRID:SCR_015242
-    name: Neurodata Without Borders (NWB)
-    schemaKey: StandardsType
-  measurementTechnique:
-  - name: analytical technique
-    schemaKey: MeasurementTechniqueType
-  - name: surgical technique
-    schemaKey: MeasurementTechniqueType
-  numberOfBytes: 60755797884
-  numberOfFiles: 67
-  numberOfSubjects: 4
+  numberOfBytes: 0
+  numberOfFiles: 0
   schemaKey: AssetsSummary
-  species:
-  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9544
-    name: Macaca mulatta - Rhesus monkey
-    schemaKey: SpeciesType
-  variableMeasured:
-  - ImagingPlane
-  - OpticalChannel
-  - ProcessingModule
-  - PlaneSegmentation
 citation: Galvan, Adriana (2024) Calcium imaging in SMA and M1 of macaques (Version
   draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001174/draft
 contributor:
