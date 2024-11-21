@@ -2,6 +2,7 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001174
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -18,8 +19,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 699707709064
-  numberOfFiles: 45
+  numberOfBytes: 709955128848
+  numberOfFiles: 46
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
@@ -31,29 +32,74 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
   - ProcessingModule
-citation: Galvan, Adriana (2024) Calcium imaging in SMA and M1 of macaques (Version
-  draft) [Data set]. DANDI archive. https://dandiarchive.org/dandiset/001174/draft
+citation: Galvan, Adriana; Anne-Caroline Martel; Damien Pittard; Annaelle Devergnas;
+  Benjamin Risk (2024) Calcium imaging in SMA and M1 of macaques (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/001174/draft
 contributor:
 - affiliation: []
   email: agalvan@emory.edu
+  identifier: 0000-0001-9939-0130
   includeInCitation: true
   name: Galvan, Adriana
   roleName:
   - dcite:ContactPerson
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-6590-0323
+  includeInCitation: true
+  name: Anne-Caroline Martel
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-1169-8964
+  includeInCitation: true
+  name: Damien Pittard
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-0461-6422
+  includeInCitation: true
+  name: Annaelle Devergnas
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0003-1090-0777
+  includeInCitation: true
+  name: Benjamin Risk
+  roleName:
+  - dcite:Author
   schemaKey: Person
 dateCreated: '2024-08-14T21:48:01.209431+00:00'
-description: This dataset contains data used in Martel et al "MICROENDOSCOPIC CALCIUM
-  IMAGING IN SUPPLEMENTARY MOTOR AREA AND PRIMARY MOTOR CORTEX OF RHESUS MACAQUES
-  AT REST AND DURING ARM MOVEMENT"
+description: The study of motor cortices in non-human primates is relevant to our
+  understanding of human motor control, both in healthy conditions and in movement
+  disorders. Calcium imaging and miniature microscopes allow the study of multiple
+  genetically identified neurons with excellent spatial resolution. We used this method
+  to examine activity patterns of projection neurons in deep layers of the supplementary
+  motor (SMA) and primary motor areas (M1) in four rhesus macaques. We implanted gradient
+  index lenses and expressed GCaMP6f to image calcium transients while the animals
+  were at rest or engaged in an arm reaching task. We tracked the activity of SMA
+  and M1 neurons across conditions, examined cell pairs for synchronous activity,
+  and assessed whether SMA and M1 neuronal activation followed specific sequential
+  activation patterns. We demonstrate the value of in vivo calcium imaging for studying
+  patterns of activity in groups of corticofugal neurons in SMA and M1.
+ethicsApproval: []
 id: DANDI:001174/draft
 identifier: DANDI:001174
+keywords:
+- One-photon calcium imaging, non-human primates, microendoscope, reaching task, neuronal
+  coactivation, calcium sensors, GCaMP, GRIN lens
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001174/versions/draft/assets/
 name: Calcium imaging in SMA and M1 of macaques
+protocol: []
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
+studyTarget:
+- To track the calcium activity of SMA and M1 neurons at rest and during arm reaches.
 url: https://dandiarchive.org/dandiset/001174/draft
 version: draft
+wasGeneratedBy: []
