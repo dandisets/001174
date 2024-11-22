@@ -2,7 +2,8 @@
 # It can be edited online at https://dandiarchive.org/dandiset/001174
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.8/context.json
-about: []
+about:
+- schemaKey: GenericType
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
@@ -19,8 +20,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 709956648816
-  numberOfFiles: 46
+  numberOfBytes: 703630605144
+  numberOfFiles: 41
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
@@ -117,7 +118,11 @@ description: The study of motor cortices in non-human primates is relevant to ou
   and assessed whether SMA and M1 neuronal activation followed specific sequential
   activation patterns. We demonstrate the value of in vivo calcium imaging for studying
   patterns of activity in groups of corticofugal neurons in SMA and M1.
-ethicsApproval: []
+ethicsApproval:
+- contactPoint:
+    schemaKey: ContactPoint
+  identifier: Emory IACUC protocol PROTO202100149
+  schemaKey: EthicsApproval
 id: DANDI:001174/draft
 identifier: DANDI:001174
 keywords:
