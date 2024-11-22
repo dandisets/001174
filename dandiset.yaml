@@ -19,8 +19,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 699296939404
-  numberOfFiles: 45
+  numberOfBytes: 709956648816
+  numberOfFiles: 46
   numberOfSubjects: 4
   schemaKey: AssetsSummary
   species:
@@ -33,8 +33,9 @@ assetsSummary:
   - ImagingPlane
   - ProcessingModule
 citation: Galvan, Adriana; Anne-Caroline Martel; Damien Pittard; Annaelle Devergnas;
-  Benjamin Risk (2024) Calcium imaging in SMA and M1 of macaques (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/001174/draft
+  Benjamin Risk; Jonathan J. Nassi; Waylin Yu; Joshua D. Downer; Thomas Wichmann (2024)
+  Calcium imaging in SMA and M1 of macaques (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/001174/draft
 contributor:
 - affiliation: []
   email: agalvan@emory.edu
@@ -69,6 +70,40 @@ contributor:
   roleName:
   - dcite:Author
   schemaKey: Person
+- identifier: 0000-0002-3144-3846
+  includeInCitation: true
+  name: Jonathan J. Nassi
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0001-5489-3260
+  includeInCitation: true
+  name: Waylin Yu
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- includeInCitation: true
+  name: Joshua D. Downer
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- identifier: 0000-0002-2751-9545
+  includeInCitation: true
+  name: Thomas Wichmann
+  roleName:
+  - dcite:Author
+  schemaKey: Person
+- awardNumber: ASAP-020572
+  identifier: https://ror.org/03zj4c476
+  includeInCitation: false
+  name: Aligning Science Across Parkinson's
+  schemaKey: Organization
+  url: https://parkinsonsroadmap.org
+- awardNumber: 'P51-OD011132 '
+  identifier: https://ror.org/01jdyfj45
+  includeInCitation: false
+  name: NIH ORIP
+  schemaKey: Organization
 dateCreated: '2024-08-14T21:48:01.209431+00:00'
 description: The study of motor cortices in non-human primates is relevant to our
   understanding of human motor control, both in healthy conditions and in movement
