@@ -21,7 +21,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: surgical technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 108065585288
+  - name: one-photon microscopy technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 108844256152
   numberOfFiles: 47
   numberOfSubjects: 4
   schemaKey: AssetsSummary
@@ -34,6 +36,7 @@ assetsSummary:
   - PlaneSegmentation
   - ImagingPlane
   - ProcessingModule
+  - OnePhotonSeries
 citation: Galvan, Adriana; Martel, Anne-Caroline; Pittard, Damien; Devergnas, Annaelle;
   Risk, Benjamin; Nassi, Jonathan J.; Yu, Waylin; Downer, Joshua D. ; Wichmann, Thomas
   (2025) Calcium imaging in SMA and M1 of macaques (Version draft) [Data set]. DANDI
