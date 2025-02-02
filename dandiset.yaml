@@ -23,8 +23,8 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: one-photon microscopy technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 113804760572
-  numberOfFiles: 12
+  numberOfBytes: 86892380120
+  numberOfFiles: 17
   numberOfSubjects: 2
   schemaKey: AssetsSummary
   species:
@@ -32,10 +32,10 @@ assetsSummary:
     name: Macaca mulatta - Rhesus monkey
     schemaKey: SpeciesType
   variableMeasured:
-  - OpticalChannel
-  - PlaneSegmentation
-  - ImagingPlane
   - ProcessingModule
+  - PlaneSegmentation
+  - OpticalChannel
+  - ImagingPlane
   - OnePhotonSeries
 citation: Galvan, Adriana; Martel, Anne-Caroline; Pittard, Damien; Devergnas, Annaelle;
   Risk, Benjamin; Nassi, Jonathan J.; Yu, Waylin; Downer, Joshua D. ; Wichmann, Thomas
