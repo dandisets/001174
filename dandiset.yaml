@@ -147,6 +147,14 @@ relatedResource:
   resourceType: dcite:Dataset
   schemaKey: Resource
   url: ''
+- identifier: doi.org/10.1101/2024.06.20.599918
+  name: MICROENDOSCOPIC CALCIUM IMAGING IN SUPPLEMENTARY MOTOR AREA AND PRIMARY MOTOR
+    CORTEX OF RHESUS MACAQUES AT REST AND DURING ARM MOVEMENT
+  relation: dcite:Describes
+  repository: BioRxiv
+  resourceType: dcite:Preprint
+  schemaKey: Resource
+  url: https://www.biorxiv.org/content/10.1101/2024.06.20.599918v3
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.8
