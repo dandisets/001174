@@ -40,8 +40,8 @@ assetsSummary:
   - OnePhotonSeries
 citation: Galvan, Adriana; Martel, Anne-Caroline; Pittard, Damien; Devergnas, Annaelle;
   Risk, Benjamin; Nassi, Jonathan J.; Yu, Waylin; Downer, Joshua D. ; Wichmann, Thomas
-  (2025) Calcium imaging in SMA and M1 of macaques (Version draft) [Data set]. DANDI
-  Archive. https://dandiarchive.org/dandiset/001174/draft
+  (2025) Calcium imaging in SMA and M1 of macaques (Version 0.250331.2218) [Data set].
+  DANDI Archive. https://doi.org/10.48324/dandi.001174/0.250331.2218
 contributor:
 - affiliation: []
   email: agalvan@emory.edu
@@ -125,12 +125,13 @@ description: The study of motor cortices in non-human primates is relevant to ou
   and assessed whether SMA and M1 neuronal activation followed specific sequential
   activation patterns. We demonstrate the value of in vivo calcium imaging for studying
   patterns of activity in groups of corticofugal neurons in SMA and M1.
+doi: 10.48324/dandi.001174/0.250331.2218
 ethicsApproval:
 - contactPoint:
     schemaKey: ContactPoint
   identifier: Emory IACUC protocol PROTO202100149
   schemaKey: EthicsApproval
-id: DANDI:001174/draft
+id: DANDI:001174/0.250331.2218
 identifier: DANDI:001174
 keywords:
 - One-photon calcium imaging, non-human primates, microendoscope, reaching task, neuronal
@@ -138,7 +139,7 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001174/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001174/0.250331.2218/assets.yaml
 name: Calcium imaging in SMA and M1 of macaques
 protocol: []
 publishedBy:
@@ -174,6 +175,6 @@ schemaKey: Dandiset
 schemaVersion: 0.6.8
 studyTarget:
 - To track the calcium activity of SMA and M1 neurons at rest and during arm reaches.
-url: https://dandiarchive.org/dandiset/001174/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001174/0.250331.2218
+version: 0.250331.2218
 wasGeneratedBy: []
