@@ -112,6 +112,7 @@ contributor:
   name: NIH ORIP
   schemaKey: Organization
 dateCreated: '2024-08-14T21:48:01.209431+00:00'
+datePublished: '2025-03-31T22:18:19.390100+00:00'
 description: The study of motor cortices in non-human primates is relevant to our
   understanding of human motor control, both in healthy conditions and in movement
   disorders. Calcium imaging and miniature microscopes allow the study of multiple
@@ -140,13 +141,26 @@ manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001174/versions/draft/assets/
 name: Calcium imaging in SMA and M1 of macaques
 protocol: []
+publishedBy:
+  endDate: '2025-03-31T22:18:19.390100+00:00'
+  id: urn:uuid:4a1af918-c265-4e4d-b3b9-54062413803e
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2025-03-31T22:18:19.390100+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:8ca8388b-e44f-45d4-8040-2f19511e9bff
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: 10.5281/zenodo.14727695
   name: Descriptors of calcium cell activities
   relation: dcite:Describes
+  repository: Zenodo
   resourceType: dcite:Dataset
   schemaKey: Resource
-  url: ''
+  url: https://zenodo.org/uploads/14727695
 - identifier: doi.org/10.1101/2024.06.20.599918
   name: MICROENDOSCOPIC CALCIUM IMAGING IN SUPPLEMENTARY MOTOR AREA AND PRIMARY MOTOR
     CORTEX OF RHESUS MACAQUES AT REST AND DURING ARM MOVEMENT
